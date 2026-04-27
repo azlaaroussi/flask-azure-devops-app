@@ -28,7 +28,8 @@ jobs:
         pip install flask pytest
 
     - name: Run tests
-      run: pytest test_app.py
+      working-directory: my-devops-app
+      run: pytest
 
     - name: Azure Login (OIDC)
       uses: azure/login@v2
