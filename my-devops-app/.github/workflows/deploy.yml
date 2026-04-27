@@ -41,4 +41,4 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: my-flask-devops-app
-        package: .
+        package: my-devops-app
